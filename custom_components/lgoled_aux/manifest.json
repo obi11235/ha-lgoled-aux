@@ -1,0 +1,12 @@
+{
+    "domain": "lgoled_aux",
+    "name": "LG OLED Aux Control",
+    "documentation": "",
+    "issue_tracker": "",
+    "dependencies": [],
+    "codeowners": ["@obi11235"],
+    "requirements": [
+        "sqlitedict"
+    ],
+    "version": "1.20230107"
+}

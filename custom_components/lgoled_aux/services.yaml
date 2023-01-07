@@ -1,0 +1,45 @@
+set_picture_mode:
+  name: Set Picture Mode
+  description: Set the picture mode
+  # target:
+  fields:
+    ip:
+      name: IP
+      required: true
+      advanced: true
+      example: "192.168.x.x"
+      selector:
+        text:
+    mode:
+      name: Mode
+      required: true
+      advanced: true
+      example: "dolbyHdrStandard"
+      selector:
+        select:
+          options:
+            - "cinema"
+            - "eco"
+            - "expert1"
+            - "expert2"
+            - "game"
+            - "normal"
+            - "photo"
+            - "sports"
+            - "technicolor"
+            - "vivid"
+            - "hdrEffect"
+            - "hdrCinema"
+            - "hdrCinemaBright"
+            - "hdrExternal"
+            - "hdrGame"
+            - "hdrStandard"
+            - "hdrTechnicolor"
+            - "hdrVivid"
+            - "dolbyHdrCinema"
+            - "dolbyHdrCinemaBright"
+            - "dolbyHdrDarkAmazon"
+            - "dolbyHdrGame"
+            - "dolbyHdrStandard"
+            - "dolbyHdrVivid"
+            - "dolbyStandard"
