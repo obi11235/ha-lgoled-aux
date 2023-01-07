@@ -1,7 +1,6 @@
 import asyncio
 from .aiopylgtv import WebOsClient
 
-
 DOMAIN = "lgoled_aux"
 
 ATTR_MODE = "mode"
