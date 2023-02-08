@@ -8,5 +8,5 @@
     "requirements": [
         "sqlitedict"
     ],
-    "version": "1.20230207"
+    "version": "1.20230207.1"
 }
