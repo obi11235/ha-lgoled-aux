@@ -19,7 +19,7 @@ def setup(hass, config):
         if ip == None:
             return False
 
-        client = await WebOsClient.create(ip=ip,key_file_path=hass.config.config_dir)
+        client = await WebOsClient.create(ip=ip,key_file_path=hass.config.path("lgoled_aux.db"))
         await client.disconnect()    
         await client.connect()
         await client.set_current_picture_mode(pic_mode=mode)
